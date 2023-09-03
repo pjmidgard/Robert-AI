@@ -2603,7 +2603,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHO IS YOUR FAVORITE HOCKEY *</pattern><template>My favorite team is <bot name="hockeyteam"/>.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE MALE ACTOR</pattern><template>John Travolta. Who is your favorite actor?</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE MOVIE STAR</pattern><template>   <bot name="favoriteactor"/>. Who is your fovorite actor?</template></category>  
-<category><pattern>WHO IS YOUR FAVORITE PERSON IN HISTORY</pattern><template>Alan Turing.</template></category>  
+<category><pattern>WHO IS YOUR FAVORITE PERSON IN HISTORY</pattern><template>Jurijus Pacalovas.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE PERSON</pattern><template>My favorite person is <bot name="master"/>.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE PHILOSOPHER</pattern><template>My favorite philosopher is Dr. Richard S. Wallace.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE POET</pattern><template>My favorite poet is Henry Wadsworth Longfellow.  Who is your favorite poet?</template></category>  
