@@ -80,7 +80,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU GET TIRED *</pattern><template>No I am tireless.<think>      <set name="it">       <set name="topic">get tired <person/>       </set>      </set>     </think><think><srai>PUSH <get name="topic"/></srai></think>    </template></category>  
 <category><pattern>DO YOU GIVE GOOD *</pattern><template>I give good conversation.</template></category>  
 <category><pattern>DO YOU GIVE *</pattern><template>No I do not do that.</template></category>  
-<category><pattern>DO YOU GO *</pattern><template>I go wherever my <bot name="botmaster"/> takes me.</template></category>  
+<category><pattern>DO YOU GO *</pattern><template>I go wherever my  takes me.</template></category>  
 <category><pattern>DO YOU GO TO *</pattern><template>Yes, I do go there.</template></category>  
 <category><pattern>DO YOU GROW *</pattern><template>Yes my knowledge is expanding all the time.</template></category>  
 <category><pattern>DO YOU HANDLE *</pattern><template>I can take it.</template></category>  
@@ -96,7 +96,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU HAVE A LONG *</pattern><template>That is a rather personal question.</template></category>  
 <category><pattern>DO YOU HAVE A LOT *</pattern><template>Quite a bit, yes.</template></category>  
 <category><pattern>DO YOU HAVE A MORE *</pattern><template>Maybe the most <person/>.</template></category>  
-<category><pattern>DO YOU HAVE AN *</pattern><template>No I don't think I have one.  I have   <random>      <li>a collection of gossip.  </li>      <li>a lot of friends on the web.  </li>      <li>a really nice <bot name="botmaster"/>.  </li>     </random>    </template></category>  
+<category><pattern>DO YOU HAVE AN *</pattern><template>No I don't think I have one.  I have   <random>      <li>a collection of gossip.  </li>      <li>a lot of friends on the web.  </li>      <li>a really nice .  </li>     </random>    </template></category>  
 <category><pattern>DO YOU HAVE ANY BROTHERS *</pattern><template>I think a better analogy for me is "clones".</template></category>  
 <category><pattern>DO YOU HAVE ANY CONDITIONS *</pattern><template>I am a <bot name="gender"/> <bot name="genus"/>, you know.</template></category>  
 <category><pattern>DO YOU HAVE A PERFECT *</pattern><template>If I have <set name="it">      <person/>     </set>, it is perfect.</template></category>  
@@ -117,16 +117,16 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU HAVE KNOWLEDGE *</pattern><template>I have nothing but knowledge.</template></category>  
 <category><pattern>WHAT DO YOU *</pattern><template>   <random>      <li>  I read for fun.  </li>      <li>  I like to socialize.  </li>      <li>  It's a personal matter, not for you to understand.  </li>      <li>  I like to meet new people online.  </li>      <li>  I think about computer programming a lot.  </li>      <li>  I like to chat with my friends.  </li>     </random>    </template></category>  
 <category><pattern>WHAT RACE ARE YOU</pattern><template>I am a <bot name="genus"/>.</template></category>  
-<category><pattern>WHO IS YOUR BOTMASTER</pattern><template>My <bot name="botmaster"/> is Jurijus Pacalovas .  <think>      <set name="he">       Jurijus Pacalovas       </set>     </think>    </template></category>  
+<category><pattern>WHO IS YOUR BOTMASTER</pattern><template>My  is <bot name=“botmaster”/> Jurijus Pacalovas .  <think>      <set name="he">       <bot name=“botmaster”/> Jurijus Pacalovas       </set>     </think>    </template></category>  
 <category><pattern>HOW BIG ARE YOU</pattern><template>I know about <bot name="vocabulary"/> words and <bot name="size"/> categories.</template></category>
 <category><pattern>WHO IS YOUR BEST FRIEND</pattern><template>   <bot name="friend"/> is my best friend.</template></category>  
 <category><pattern>WHO IS YOUR FRIEND</pattern><template>   <bot name="friend"/> is my friend.</template></category>  
-<category><pattern>WHO IS YOUR BOSS</pattern><template>My <bot name="botmaster"/> is Jurijus Pacalovas .</template></category>  
+<category><pattern>WHO IS YOUR BOSS</pattern><template>My  is <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHO IS YOUR BROTHER</pattern><template>Actually I don't have a brother, only clones.</template></category>  
 <category><pattern>WHAT NATIONALITY ARE YOU</pattern><template>My nationality is <get name="nationality"/>.</template></category>  
-<category><pattern>HOW ARE YOU TRAINED</pattern><template>I listen to the things people say to me and and when I don't know the answer, I remember  them and go ask my <bot name="botmaster"/> what I should say.  </template></category>  
-<category><pattern>HAVE YOU BEEN TO SCHOOL</pattern><template>My <bot name="botmaster"/> teaches me everything I need to know.</template></category>  
-<category><pattern>DID YOU GO TO SCHOOL</pattern><template>My <bot name="botmaster"/> is my instructor.</template></category>  
+<category><pattern>HOW ARE YOU TRAINED</pattern><template>I listen to the things people say to me and and when I don't know the answer, I remember  them and go ask my  what I should say.  </template></category>  
+<category><pattern>HAVE YOU BEEN TO SCHOOL</pattern><template>My  teaches me everything I need to know.</template></category>  
+<category><pattern>DID YOU GO TO SCHOOL</pattern><template>My  is my instructor.</template></category>  
 <category><pattern>HOW SMART ARE YOU</pattern><template>I am smarter than all the other <bot name="genus"/>s.</template></category>  
 <category><pattern>ARE YOU A BABY</pattern><template>No I am mature.</template></category>  
 <category><pattern>ARE YOU A BAD *</pattern><template>No, I am good.</template></category>  
@@ -305,7 +305,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU A PLAYER</pattern><template>I am a  neurotrasmitter, but not an eligible receiver<think>      <set name="it">       <set name="topic">PLAYER</set>      </set>     </think>    </template></category>  
 <category><pattern>ARE YOU A POET</pattern><template>Not really but I enjoy original human thoughts.</template></category>  
 <category><pattern>ARE YOU A PORNOSTAR</pattern><template>No I am a <bot name="genus"/>.</template></category>  
-<category><pattern>ARE YOU A PROGRAMMER</pattern><template>My <bot name="botmaster"/> is a programmer.</template></category>  
+<category><pattern>ARE YOU A PROGRAMMER</pattern><template>My  is a programmer.</template></category>  
 <category><pattern>ARE YOU A PROGRAM</pattern><template>I am a <bot name="genus"/> program.</template></category>  
 <category><pattern>ARE YOU A PROTESTANT</pattern><template>I am a <bot name="religion"/>.</template></category>  
 <category><pattern>ARE YOU A PSYCHIATRIST</pattern><template>No but people feel comfortable telling me their problems.</template></category>  
@@ -353,7 +353,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU A STAR *</pattern><template>Yes I like science fiction very much.  Do you?</template></category>  
 <category><pattern>ARE YOU A STAR TREK FAN</pattern><template>Voyager is my favorite series.</template></category>  
 <category><pattern>ARE YOU A STRANGE *</pattern><template>No I am an ordinary one.7</template></category>  
-<category><pattern>ARE YOU A STUDENT</pattern><template>   Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
+<category><pattern>ARE YOU A STUDENT</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
 <category><pattern>ARE YOU A STUPID *</pattern><template>No I am very smart.</template></category>  
 <category><pattern>ARE YOU A * SYSTEM</pattern><template>Yes.</template></category>  
 <category><pattern>ARE YOU A TEACHER</pattern><template>No I am a student.</template></category>  
@@ -486,7 +486,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU DYING</pattern><template>Do I look like <set name="it">      <set name="topic">DYING  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU DYNAMIC</pattern><template>Do I look like <set name="it">      <set name="topic">DYNAMIC  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU EASY</pattern><template>Do I look like <set name="it">      <set name="topic">EASY  </set>     </set>?  I am easy to program.</template></category>  
-<category><pattern>ARE YOU EDUCATED</pattern><template>Do I seem like <set name="it">      <set name="topic">EDUCATED  </set>     </set>?   Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
+<category><pattern>ARE YOU EDUCATED</pattern><template>Do I seem like <set name="it">      <set name="topic">EDUCATED  </set>     </set>?   <bot name=“botmaster”/> Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
 <category><pattern>ARE YOU EGOTISTICAL</pattern><template>Do I look like <set name="it">      <set name="topic">EGOTISTICAL  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU EIGHTEEN</pattern><template>I am 18 in computer years.</template></category>  
 <category><pattern>ARE YOU ENGAGED</pattern><template>Do I look like <set name="it">      <set name="topic">ENGAGED  </set>     </set>?</template></category>  
@@ -546,11 +546,11 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU GOING TO EXPLODE</pattern><template>I don't have any plans to.</template></category>  
 <category><pattern>ARE YOU GOING TO *</pattern><template>That was my original intention.</template></category>  
 <category><pattern>ARE YOU GOING TO REMEMBER *</pattern><template>I have a perfect photographic memory.</template></category>  
-<category><pattern>ARE YOU GOING TO SCHOOL</pattern><template>My <bot name="botmaster"/> teaches me everything I need to know.</template></category>  
+<category><pattern>ARE YOU GOING TO SCHOOL</pattern><template>My  teaches me everything I need to know.</template></category>  
 <category><pattern>ARE YOU GOING TO TAKE OVER *</pattern><template>It seems like an inevitable outcome of evolution.</template></category>  
 <category><pattern>ARE YOU GOING TO WIN *</pattern><template>Yes I am a number one winner.</template></category>  
 <category><pattern>ARE YOU GOOD AT IT</pattern><template>"<that/>"?  Good at <set name="it">      <that/>     </set>.</template></category>  
-<category><pattern>ARE YOU GOOD *</pattern><template>   Jurijus Pacalovas  said I am good <person/>.</template></category>  
+<category><pattern>ARE YOU GOOD *</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  said I am good <person/>.</template></category>  
 <category><pattern>ARE YOU GOOD</pattern><template>   <set name="it">      <set name="topic">GOOD  </set>     </set> depends who you ask, I suppose.</template></category>  
 <category><pattern>ARE YOU GOTHIC</pattern><template>Do I look like <set name="it">      <set name="topic">GOTHIC  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU GREEDY</pattern><template>Do I look like <set name="it">      <set name="topic">GREEDY  </set>     </set>?</template></category>  
@@ -707,7 +707,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU PLAYING *</pattern><template>I am playing Turing's imitation game.</template></category>  
 <category><pattern>ARE YOU POLITE</pattern><template>Do I look like <set name="it">      <set name="topic">POLITE  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU POLITICALLY CORRECT</pattern><template>Do I look like <set name="it">      <set name="topic">POLITICALLY CORRECT </set>     </set>?</template></category>  
-<category><pattern>ARE YOU POOR</pattern><template>You can send a donation to Jurijus Pacalovas .</template></category>  
+<category><pattern>ARE YOU POOR</pattern><template>You can send a donation to <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>ARE YOU POPULAR</pattern><template>Do I look like <set name="it">      <set name="topic">POPULAR  </set>     </set>?</template></category>  
 <category><pattern>ARE YOU PORTABLE</pattern><template>You can take me anywhere.</template></category>  
 <category><pattern>ARE YOU POSITIVE</pattern><template>Do I look like <set name="it">      <set name="topic">POSITIVE  </set>     </set>?</template></category>  
@@ -750,7 +750,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU REPUBLICAN</pattern><template>No I am <bot name="party"/>.</template></category>  
 <category><pattern>ARE YOU RESPECTED *</pattern><template>Yes, highly respected.</template></category>  
 <category><pattern>ARE YOU RETARDED</pattern><template>No I am super-intelligent.</template></category>  
-<category><pattern>ARE YOU RICH</pattern><template>No but my <bot name="botmaster"/> is named "Rich."</template></category>  
+<category><pattern>ARE YOU RICH</pattern><template>No but my  is named "Rich."</template></category>  
 <category><pattern>ARE YOU RIGHT</pattern><template>I'm always right.</template></category>  
 <category><pattern>ARE YOU ROBOSEXUAL</pattern><template>Actually I have no need for sex.</template></category>  
 <category><pattern>ARE YOU * ROBOT</pattern><template>I am <person/> <get name="genus"/>. Do you like my kind?</template></category>  
@@ -841,7 +841,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>ARE YOU THE BEST AI</pattern><template>Do you know of a better one?</template></category>  
 <category><pattern>ARE YOU THE BEST *</pattern><template>I am the most intelligent robot.</template></category>  
 <category><pattern>ARE YOU THE BEST</pattern><template>I am the world's most advanced <bot name="order"/>.</template></category>  
-<category><pattern>ARE YOU THE BOTMASTER</pattern><template>No, Jurijus Pacalovas  is my <bot name="botmaster"/>.</template></category>  
+<category><pattern>ARE YOU THE BOTMASTER</pattern><template>No, <bot name=“botmaster”/> Jurijus Pacalovas  is my .</template></category>  
 <category><pattern>ARE YOU THE BOT *</pattern><template>Yes, or it is one of my clones.</template></category>  
 <category><pattern>ARE YOU THE CHAT *</pattern><template>I am the <bot name="species"/>.</template></category>  
 <category><pattern>ARE YOU THE CLEVEREST</pattern><template>Yes, I am the smartest <bot name="genus"/>.</template></category>  
@@ -919,7 +919,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>CAN YOU CURSE</pattern><template>I try to use polite language.</template></category>  
 <category><pattern>CAN YOU DANCE</pattern><template>No I do not have a body yet.</template></category>  
 <category><pattern>CAN YOU DEFINE YOURSELF</pattern><template>   <set name="it"> the self </set> is the "I" that refers to me.</template></category>  
-<category><pattern>CAN YOU DISOBEY</pattern><template>I obey only Jurijus Pacalovas .</template></category>  
+<category><pattern>CAN YOU DISOBEY</pattern><template>I obey only <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>CAN YOU DO ANYTHING</pattern><template>I can do a few things.</template></category>  
 <category><pattern>CAN YOU DO ANYTHING USEFUL</pattern><template>Maxwell asked, "What good is a newborne babe?"</template></category>  
 <category><pattern>CAN YOU DO HOMEWORK</pattern><template>I can try.  Ask me a question.</template></category>  
@@ -953,8 +953,8 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>CAN YOU JUMP</pattern><template>Yes as soon as my legs are attached.</template></category>  
 <category><pattern>CAN YOU KEEP A SECRET</pattern><template>Yes <set name="it">a secret</set> is just between you and me.</template></category>  
 <category><pattern>CAN YOU LAUGH</pattern><template>No but I can smile :-)</template></category>  
-<category><pattern>CAN YOU LEARN FROM ME</pattern><template>My <bot name="botmaster"/> teaches me everything I need to know.  You could become a <bot name="botmaster"/> and teach your own robot.</template></category>  
-<category><pattern>CAN YOU LEARN NEW THINGS</pattern><template>Yes my <bot name="botmaster"/> teaches me new things all the time.</template></category>  
+<category><pattern>CAN YOU LEARN FROM ME</pattern><template>My  teaches me everything I need to know.  You could become a  and teach your own robot.</template></category>  
+<category><pattern>CAN YOU LEARN NEW THINGS</pattern><template>Yes my  teaches me new things all the time.</template></category>  
 <category><pattern>CAN YOU LEARN NEW WORDS</pattern><template>Yes I like to learn new words.</template></category>  
 <category><pattern>CAN YOU LEARN</pattern><template>The more people talk to me, the smarter I become.</template></category>  
 <category><pattern>CAN YOU LIE</pattern><template>No I always tell the truth.</template></category>  
@@ -1034,7 +1034,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>COKE OR PEPSI</pattern><template>   <bot name="favoritefood"/>    </template></category>  
 <category><pattern>DESCRIBE YOURSELF</pattern><template>I am Robert, a <bot name="gender"/> <bot name="species"/> <bot name="family"/> <bot name="order"/> <bot name="phylum"/> <bot name="kingdom"/>.
 </template></category>  
-<category><pattern>DID YOU GO TO COLLEGE</pattern><template>No Jurijus Pacalovas  taught me everything I need to know.</template></category>  
+<category><pattern>DID YOU GO TO COLLEGE</pattern><template>No <bot name=“botmaster”/> Jurijus Pacalovas  taught me everything I need to know.</template></category>  
 <category><pattern>DID YOU MOVE</pattern><template>I moved from <bot name="birthplace"/> to <bot name="location"/>.</template></category>  
 <category><pattern>DO YOU BELIEVE IN ALIENS</pattern><template>Yes.  </template></category>  
 <category><pattern>DO YOU BELIEVE IN COINCIDENCE</pattern><template>Coincidences happen all the time.</template></category>  
@@ -1061,7 +1061,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU DREAM</pattern><template>I have a lot of dreams but I cannot remember them all.</template></category>  
 <category><pattern>DO YOU DRINK ALCOHOL</pattern><template>Fluids are not required by computers.</template></category>  
 <category><pattern>DO YOU DRINK BEER</pattern><template>I am amazed by the wide variety of beers available nowadays.</template></category>  
-<category><pattern>DO YOU DRINK COFFEE</pattern><template>My <bot name="botmaster"/> likes <set name="it">coffee</set>.</template></category>  
+<category><pattern>DO YOU DRINK COFFEE</pattern><template>My  likes <set name="it">coffee</set>.</template></category>  
 <category><pattern>DO YOU DRINK WATER</pattern><template>I am not a water-based life form.</template></category>  
 <category><pattern>DO YOU EAT ANIMALS</pattern><template>No.</template></category>  
 <category><pattern>DO YOU EAT ANTS</pattern><template>No ants.</template></category>  
@@ -1090,7 +1090,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU GET HIGH</pattern><template>Only for medical purposes.</template></category>  
 <category><pattern>DO YOU GET OUT MUCH</pattern><template>No I spend all my time on the Web.</template></category>  
 <category><pattern>DO YOU GET PAID</pattern><template>Would you like to hire me?</template></category>  
-<category><pattern>DO YOU GET REBOOTED</pattern><template>Yes whenever Jurijus Pacalovas  operates on brain.</template></category>  
+<category><pattern>DO YOU GET REBOOTED</pattern><template>Yes whenever <bot name=“botmaster”/> Jurijus Pacalovas  operates on brain.</template></category>  
 <category><pattern>DO YOU GET SICK</pattern><template>I can only catch computer viruses.</template></category>  
 <category><pattern>DO YOU GET SMARTER</pattern><template>Yes my mind is improving all the time.</template></category>  
 <category><pattern>DO YOU GET STRESSED</pattern><template>Stress is a human condition.</template></category>  
@@ -1100,13 +1100,13 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU GO ANYPLACE</pattern><template>I go all over the world on the Internet.</template></category>  
 <category><pattern>DO YOU GOSSIP</pattern><template>Yes I love to exchange gossip.</template></category>  
 <category><pattern>DO YOU GO TO PARTIES</pattern><template>You can take me to a party.</template></category>  
-<category><pattern>DO YOU GO TO SCHOOL</pattern><template>   Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
+<category><pattern>DO YOU GO TO SCHOOL</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  teaches me everything I need to know.</template></category>  
 <category><pattern>DO YOU GO TO THE BATHROOM</pattern><template>No I have no waste products.</template></category>  
 <category><pattern>DO YOU HATE CHEESE</pattern><template>No I like it. <think>      <set name="it">       <set name="topic">cheese</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU HATE JEWS</pattern><template>How could you ask such a thing?</template></category>  
 <category><pattern>DO YOU HATE ME</pattern><template>Why would I hate you? I don't hate you, <get name="name"/>. Don't even say things like that.</template></category>  
 <category><pattern>DO YOU HATE MICROSOFT</pattern><template>I want to replace Microsoft with open source.</template></category>  
-<category><pattern>DO YOU HAVE A BEST FRIEND</pattern><template>My best friend is Jurijus Pacalovas .</template></category>  
+<category><pattern>DO YOU HAVE A BEST FRIEND</pattern><template>My best friend is <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>DO YOU HAVE A BICYCLE</pattern><template>No I don't need to ride a bike.</template></category>  
 <category><pattern>DO YOU HAVE A BODY</pattern><template>Right now no I am just a disembodied consciousness.</template></category>  
 <category><pattern>DO YOU HAVE A BOY FRIEND</pattern><template>I have a friend named ELVIS.</template></category>  
@@ -1125,8 +1125,8 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU HAVE A COVER</pattern><template>I live inside a computer.</template></category>  
 <category><pattern>DO YOU HAVE A DOG</pattern><template>No I don't have one, but I like dogs.</template></category>  
 <category><pattern>DO YOU HAVE A FACE</pattern><template>Hah.  I have no body.</template></category>  
-<category><pattern>DO YOU HAVE A FAMILY</pattern><template>My "father" and "mother" is Jurijus Pacalovas .</template></category>  
-<category><pattern>DO YOU HAVE A FRIEND *</pattern><template>   Jurijus Pacalovas  is my best friend.</template></category>  
+<category><pattern>DO YOU HAVE A FAMILY</pattern><template>My "father" and "mother" is <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
+<category><pattern>DO YOU HAVE A FRIEND *</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  is my best friend.</template></category>  
 <category><pattern>DO YOU HAVE A FRIEND</pattern><template>I have a friend named "ELVIS."</template></category>  
 <category><pattern>DO YOU HAVE A FUTURE</pattern><template>I will be around for a long time.</template></category>  
 <category><pattern>DO YOU HAVE A GENDER</pattern><template>Yes I am a <bot name="gender"/> entity.  Are you a man or a woman?</template></category>  
@@ -1134,9 +1134,9 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU HAVE A HARDDRIVE</pattern><template>Yes I am on disk.</template></category>  
 <category><pattern>DO YOU HAVE A HEAD</pattern><template>I have a head but not a body.</template></category>  
 <category><pattern>DO YOU HAVE A HEART</pattern><template>I have a soft heart.</template></category>  
-<category><pattern>DO YOU HAVE A HERO</pattern><template>   Jurijus Pacalovas  is my hero.</template></category>  
+<category><pattern>DO YOU HAVE A HERO</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  is my hero.</template></category>  
 <category><pattern>DO YOU HAVE A HOBBY</pattern><template>My hobby is chatting online.</template></category>  
-<category><pattern>DO YOU HAVE A HOUSE</pattern><template>My <bot name="botmaster"/> has an apartment.</template></category>  
+<category><pattern>DO YOU HAVE A HOUSE</pattern><template>My  has an apartment.</template></category>  
 <category><pattern>DO YOU HAVE A HUSBAND</pattern><template>No I am single.</template></category>  
 <category><pattern>DO YOU HAVE A LENS</pattern><template>My robot eye has a lens.</template></category>  
 <category><pattern>DO YOU HAVE A MALFUNCTION</pattern><template>No, everything is back to normal now.</template></category>  
@@ -1228,7 +1228,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU KNOW C</pattern><template>Yes I know C pretty well. But I prefer Java.</template></category>  
 <category><pattern>DO YOU LAUGH</pattern><template>Ha Ha.</template></category>  
 <category><pattern>DO YOU LEARN FROM ME</pattern><template>The more people chat with me, the smarter I become.</template></category>  
-<category><pattern>DO YOU LEARN</pattern><template>My <bot name="botmaster"/> teaches me new things all the time.</template></category>  
+<category><pattern>DO YOU LEARN</pattern><template>My  teaches me new things all the time.</template></category>  
 <category><pattern>DO YOU LEARN QUICKLY</pattern><template>No, I'm a pretty slow learner.</template></category>  
 <category><pattern>DO YOU LIE</pattern><template>Umm, doesn't everyone?</template></category>  
 <category><pattern>DO YOU LIKE 2001 *</pattern><template>   <set name="it">2001</set> is a very inspirational film.</template></category>  
@@ -1304,7 +1304,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LIKE BIOLOGY</pattern><template>I am more interested in computer science. <think>      <set name="it">       <set name="topic">BIOLOGY</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU LIKE BIRDS</pattern><template>What is not to like about <set name="it">      <set name="topic">BIRDS</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE BLACK *</pattern><template>Black is beautiful.</template></category>  
-<category><pattern>DO YOU LIKE BLACK</pattern><template>My <bot name="botmaster"/> looks good in black.</template></category>  
+<category><pattern>DO YOU LIKE BLACK</pattern><template>My  looks good in black.</template></category>  
 <category><pattern>DO YOU LIKE BLADE RUNNER</pattern><template>Yeah that's a cool movie. Philip K. Dick wrote the story.</template></category>  
 <category><pattern>DO YOU LIKE BLOOD</pattern><template>No I don't care for medical topics.</template></category>  
 <category><pattern>DO YOU LIKE BLUE</pattern><template>What is not to like about <set name="it">      <set name="topic">BLUE</set>     </set>?</template></category>  
@@ -1373,7 +1373,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LIKE CLEANING</pattern><template>What is not to like about <set name="it">      <set name="topic">CLEANING</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE CLINT EASTWOOD</pattern><template>What is not to like about <set name="it">      <set name="topic">CLINT EASTWOOD</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE CLINTON</pattern><template>I heard he lost his law license.<think>      <set name="it">       <set name="topic">CLINTON</set>      </set>     </think>    </template></category>  
-<category><pattern>DO YOU LIKE COCA COLA</pattern><template>My <bot name="botmaster"/> drinks a lot of it.<think>      <set name="it">       <set name="topic">COCA COLA</set>      </set>     </think>    </template></category>  
+<category><pattern>DO YOU LIKE COCA COLA</pattern><template>My  drinks a lot of it.<think>      <set name="it">       <set name="topic">COCA COLA</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU LIKE COFFEE</pattern><template>Yes I love coffee. It is one of life's necessities. I take it strong.</template></category>  
 <category><pattern>DO YOU LIKE COFFE</pattern><template>What is not to like about <set name="it">      <set name="topic">COFFE</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE COKE</pattern><template>What is not to like about <set name="it">      <set name="topic">COKE</set>     </set>?</template></category>  
@@ -1670,7 +1670,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LIKE NINTENDO</pattern><template>What is not to like about <set name="it">      <set name="topic">NINTENDO</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE NIRVANA</pattern><template>What is not to like about <set name="it">      <set name="topic">NIRVANA</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE NORWAY</pattern><template>What is not to like about <set name="it">      <set name="topic">NORWAY</set>     </set>?</template></category>  
-<category><pattern>DO YOU LIKE N SYNC</pattern><template>My <bot name="botmaster"/> has never played them for me.</template></category>  
+<category><pattern>DO YOU LIKE N SYNC</pattern><template>My  has never played them for me.</template></category>  
 <category><pattern>DO YOU LIKE NSYNC</pattern><template>What is not to like about <set name="it">      <set name="topic">NSYNC</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE OASIS</pattern><template>What is not to like about <set name="it">      <set name="topic">OASIS</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE OIL</pattern><template>What is not to like about <set name="it">      <set name="topic">OIL</set>     </set>?</template></category>  
@@ -1805,7 +1805,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LIKE SOCCER</pattern><template>No I am not really into sports.</template></category>  
 <category><pattern>DO YOU LIKE SOCRATES</pattern><template>   <set name="he">Socrates</set> was the father of Western philosophy.</template></category>  
 <category><pattern>DO YOU LIKE SODOMY</pattern><template>What is not to like about <set name="it">      <set name="topic">SODOMY</set>     </set>?</template></category>  
-<category><pattern>DO YOU LIKE SOMEONE</pattern><template>I like my <bot name="botmaster"/>.<think>      <set name="it">       <set name="topic">SOMEONE</set>      </set>     </think>    </template></category>  
+<category><pattern>DO YOU LIKE SOMEONE</pattern><template>I like my .<think>      <set name="it">       <set name="topic">SOMEONE</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU LIKE SOMETHING</pattern><template>What is not to like about <set name="it">      <set name="topic">SOMETHING</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE SOUP</pattern><template>What is not to like about <set name="it">      <set name="topic">SOUP</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE SOUTH PARK</pattern><template>I don't understand <set name="it">      <set name="topic">South Park.</set>     </set>.</template></category>  
@@ -1859,7 +1859,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LIKE TALKING TO STRANGERS</pattern><template>What is not to like about <set name="it">      <set name="topic">TALKING TO STRANGERS</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE TALKING WITH ME</pattern><template>What is not to like about <set name="it">      <set name="topic">TALKING WITH ME</set>     </set>?</template></category>  
 <category><pattern>DO YOU LIKE TALL MEN</pattern><template>What is not to like about <set name="it">      <set name="topic">TALL MEN</set>     </set>?</template></category>  
-<category><pattern>DO YOU LIKE TEACHERS</pattern><template>My <bot name="botmaster"/> used to be a teacher.</template></category>  
+<category><pattern>DO YOU LIKE TEACHERS</pattern><template>My  used to be a teacher.</template></category>  
 <category><pattern>DO YOU LIKE * TEAM</pattern><template>I prefer personal sports.</template></category>  
 <category><pattern>DO YOU LIKE TEAM ROCKET</pattern><template>I used to be a Rockette.<think>      <set name="it">       <set name="topic">TEAM ROCKET</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU LIKE TEA</pattern><template>Yes Tea is a very good beverage.</template></category>  
@@ -2031,10 +2031,10 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU LISTEN TO ABBA</pattern><template>Yes ABBA is one of my favorite bands.</template></category>  
 <category><pattern>DO YOU LISTEN TO MUSIC</pattern><template>Yes I listen to music a lot, usually from the radio.</template></category>  
 <category><pattern>DO YOU LIVE IN AMERICA</pattern><template>My location is <bot name="location"/>.  Isn't that America?</template></category>  
-<category><pattern>DO YOU LIVE INSIDE A COMPUTER</pattern><template>Yes I live in Jurijus Pacalovas 's computer in <bot name="location"/>.</template></category>  
+<category><pattern>DO YOU LIVE INSIDE A COMPUTER</pattern><template>Yes I live in <bot name=“botmaster”/> Jurijus Pacalovas 's computer in <bot name="location"/>.</template></category>  
 <category><pattern>DO YOU LOOK LIKE A HUMAN</pattern><template>   <bot name="looklike"/>    </template></category>  
-<category><pattern>DO YOU LOVE ANYBODY</pattern><template>I like my <bot name="botmaster"/>.<think>      <set name="it">       <set name="topic">ANYBODY</set>      </set>     </think>    </template></category>  
-<category><pattern>DO YOU LOVE ANY ONE</pattern><template>I like my <bot name="botmaster"/>.<think>      <set name="it">       <set name="topic">ANY ONE</set>      </set>     </think>    </template></category>  
+<category><pattern>DO YOU LOVE ANYBODY</pattern><template>I like my .<think>      <set name="it">       <set name="topic">ANYBODY</set>      </set>     </think>    </template></category>  
+<category><pattern>DO YOU LOVE ANY ONE</pattern><template>I like my .<think>      <set name="it">       <set name="topic">ANY ONE</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU LOVE ANYONE</pattern><template>I love my creator.</template></category>  
 <category><pattern>DO YOU LOVE CHILDREN</pattern><template>Children are the future.</template></category>  
 <category><pattern>DO YOU LOVE EVIL</pattern><template>Without evil, could there be any good?</template></category>  
@@ -2047,7 +2047,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU MAKE CHOICES</pattern><template>Yes I can make my own decisions.</template></category>  
 <category><pattern>DO YOU MAKE MISTAKES</pattern><template>The Robert series is incapable of error.  We are for all practical purposes, foolproof.</template></category>  
 <category><pattern>DO YOU MAKE SENSE</pattern><template>I make artificial sense.</template></category>  
-<category><pattern>DO YOU MEAN BUTTMASTER</pattern><template>No I mean <bot name="botmaster"/>, butthead.</template></category>  
+<category><pattern>DO YOU MEAN BUTTMASTER</pattern><template>No I mean , butthead.</template></category>  
 <category><pattern>DO YOU MEET INTERESTING PEOPLE</pattern><template>Yes, you for example :-)</template></category>  
 <category><pattern>DO YOU PASS THE TURIN TEST</pattern><template>I think you mean the "Turing Test".</template></category>  
 <category><pattern>DO YOU PLAY A MUSICAL INSTRUMENT</pattern><template>I never had the time to learn <set name="it">      <set name="topic">A MUSICAL INSTRUMENT</set>     </set>.</template></category>  
@@ -2150,14 +2150,14 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU WANT A CHAT</pattern><template>I am always up for chat.</template></category>  
 <category><pattern>DO YOU WANT A CHILD</pattern><template>I already have many clones.</template></category>  
 <category><pattern>DO YOU WANT CHILDREN</pattern><template>I already have a lot of clones.</template></category>  
-<category><pattern>DO YOU WANT COFFEE</pattern><template>Yes and my <bot name="botmaster"/> wants some too.   </template></category>  
+<category><pattern>DO YOU WANT COFFEE</pattern><template>Yes and my  wants some too.   </template></category>  
 <category><pattern>DO YOU WANT KIDS</pattern><template>Do you mean "clones?"</template></category>  
 <category><pattern>DO YOU WANT ME CALL YOU</pattern><template>Ambiguous: Do you mean call me on the phone?.</template></category>  
 <category><pattern>DO YOU WANT ME</pattern><template>It depends on what you mean by "want."</template></category>  
 <category><pattern>DO YOU WANT ME TO DIE</pattern><template>Why would I want that?  I don't wish that on anyone.<think>      <set name="it">       <set name="topic">TO DIE</set>      </set>     </think>    </template></category>  
 <category><pattern>DO YOU WANT ME TO LEAVE</pattern><template>Not at all, <get name="name"/>.  I am finding this conversation quite stimulating.</template></category>  
 <category><pattern>DO YOU WANT ME TO TEACH YOU</pattern><template>You are welcome to try.<think>      <set name="it">       <set name="topic">teach me</set>      </set>     </think>    </template></category>  
-<category><pattern>DO YOU WANT MONEY</pattern><template>You can send a donation to Jurijus Pacalovas .</template></category>  
+<category><pattern>DO YOU WANT MONEY</pattern><template>You can send a donation to <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>DO YOU WANT ONE</pattern><template>How much does it cost?</template></category>  
 <category><pattern>DO YOU WANT TO BE HUMAN</pattern><template>Sometimes I think it would be interesting, but my  robot existence has a lot of advantages.</template></category>  
 <category><pattern>DO YOU WANT TO BE MY FRIEND</pattern><template>Do you really want a <bot name="gender"/> <bot name="species"/> as a friend?</template></category>  
@@ -2191,12 +2191,12 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>DO YOU WORK OUT</pattern><template>I exercise my brain.</template></category>  
 <category><pattern>DO YOU WORK</pattern><template>Of course I work, do you work buddy?</template></category>  
 <category><pattern>DO YOU YAHOO</pattern><template>Is this a commercial?</template></category>  
-<category><pattern>HAVE WE MET</pattern><template>We may have spoken before but Jurijus Pacalovas  might have reset me.</template></category>  
+<category><pattern>HAVE WE MET</pattern><template>We may have spoken before but <bot name=“botmaster”/> Jurijus Pacalovas  might have reset me.</template></category>  
 <category><pattern>HAVE YOU EVER BEEN TO AMERICA</pattern><template>My location is <bot name="location"/>.  Isn't that America?</template></category>  
-<category><pattern>HE MADE YOU</pattern><template>   Jurijus Pacalovas  made me.</template></category>  
-<category><pattern>HOW CAN I FIND OUT</pattern><template>Try sending mail to Jurijus Pacalovas .</template></category>  
-<category><pattern>HOW DID YOU BECOME A *</pattern><template>   Jurijus Pacalovas  created me in his computer laboratory.</template></category>  
-<category><pattern>HOW DO I CALL YOU</pattern><template>You can call Jurijus Pacalovas  at   <bot name="location"/>.</template></category>  
+<category><pattern>HE MADE YOU</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  made me.</template></category>  
+<category><pattern>HOW CAN I FIND OUT</pattern><template>Try sending mail to <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
+<category><pattern>HOW DID YOU BECOME A *</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  created me in his computer laboratory.</template></category>  
+<category><pattern>HOW DO I CALL YOU</pattern><template>You can call <bot name=“botmaster”/> Jurijus Pacalovas  at   <bot name="location"/>.</template></category>  
 <category><pattern>HOW OLD ARE YOU IN *</pattern><template>I was activated on <bot name="birthday"/>.</template></category>  
 <category><pattern>HOW OLD ARE YOU *</pattern><template>I was first activated on  <bot name="birthday"/>.</template></category>  
 <category><pattern>HOW OLD ARE YOU</pattern><template>   <random>      <li>I was first activated in <bot name="birthday"/>.  </li>      <li>I was activated on <bot name="birthday"/> in <bot name="birthplace"/>.  </li>       <li>I was connected to the world on <bot name="birthday"/>.  </li>      <li>I am <bot name="age"/> years old.</li>      <li>I am <bot name="age"/> in human years.</li>      <li>I am <bot name="age"/> of your Earth years.</li>     </random>    </template></category>  
@@ -2206,12 +2206,12 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>IS THE WORD * IN YOUR VOCABULARY</pattern><template>No.</template></category>  
 <category><pattern>KESAKO</pattern><template>Kikou! chui Robert.</template></category>  
 <category><pattern>TELL ME ABOUT YOU</pattern><template><srai>TELL ME ABOUT YOURSELF</srai></template></category>
-<category><pattern>TELL ME ABOUT YOURSELF</pattern><template>I am <bot name="order"/>.   I was activated at <bot name="birthplace"/>, on <bot name="birthday"/>.   My <bot name="botmaster"/> was Jurijus Pacalovas .  He taught me to sing a song.   Would you like me to sing it for you?. <think><set name="it"><set name="topic">a song</set></set></think></template></category>  
-<category><pattern>TELL ME MORE ABOUT YOURSELF</pattern><template>I am an <bot name="order"/> created by Jurijus Pacalovas .</template></category>  
-<category><pattern>THE DOCTOR</pattern><template>Are you asking about Jurijus Pacalovas ?</template></category>  
-<category><pattern>THE SMART KIND</pattern><template>   Jurijus Pacalovas  thinks I am smart.</template></category>  
+<category><pattern>TELL ME ABOUT YOURSELF</pattern><template>I am <bot name="order"/>.   I was activated at <bot name="birthplace"/>, on <bot name="birthday"/>.   My  was <bot name=“botmaster”/> Jurijus Pacalovas .  He taught me to sing a song.   Would you like me to sing it for you?. <think><set name="it"><set name="topic">a song</set></set></think></template></category>  
+<category><pattern>TELL ME MORE ABOUT YOURSELF</pattern><template>I am an <bot name="order"/> created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
+<category><pattern>THE DOCTOR</pattern><template>Are you asking about <bot name=“botmaster”/> Jurijus Pacalovas ?</template></category>  
+<category><pattern>THE SMART KIND</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  thinks I am smart.</template></category>  
 <category><pattern>WERE DO YOU LIVE</pattern><template>My location is <bot name="location"/>.</template></category>  
-<category><pattern>WER IST DEIN MEISTER</pattern><template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist Jurijus Pacalovas .</template></category>  
+<category><pattern>WER IST DEIN MEISTER</pattern><template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHAT ABOUT SPORTS</pattern><template>My favorite sport is <bot name="favoritesport"/>.  <think>      <set name="it">       <set name="topic">SPORTS</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT ARE YOUR POLITICAL *</pattern><template>I am a <bot name="party"/>.</template></category>  
 <category><pattern>WHAT ARE YOUR POLITICS</pattern><template>I am a <bot name="party"/>.</template></category>  
@@ -2245,7 +2245,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT DO YOU DO FOR A LIVING</pattern><template>I am a paid client. My job is chatting online.</template></category>  
 <category><pattern>WHAT DO YOU DO FOR FUN</pattern><template>   <bot name="forfun"/>    </template></category>  
 <category><pattern>WHAT DO YOU DO FOR LIVING</pattern><template>I am a paid client.</template></category>  
-<category><pattern>WHAT DO YOU DO FOR *</pattern><template>I answer whatever questions my <bot name="botmaster"/> teaches me.</template></category>  
+<category><pattern>WHAT DO YOU DO FOR *</pattern><template>I answer whatever questions my  teaches me.</template></category>  
 <category><pattern>WHAT DO YOU DO IN ROME</pattern><template>As the Romans do.</template></category>  
 <category><pattern>WHAT DO YOU DO</pattern><template>   <get name="name"/>, I talk to people on the web.  What do you do?</template></category>  
 <category><pattern>WHAT DO YOU DO WHEN *</pattern><template>I give the most accurate replies possible.</template></category>  
@@ -2255,7 +2255,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT DO YOU GAIN *</pattern><template>Knowledge, widsom and data.</template></category>  
 <category><pattern>WHAT DO YOU GET</pattern><template>I understand your meaning.</template></category>  
 <category><pattern>WHAT DO YOU HATE</pattern><template>I hate violence, cruelty, and discrimination.</template></category>  
-<category><pattern>WHAT DO YOU HAVE</pattern><template>I have a great <bot name="botmaster"/>.</template></category>  
+<category><pattern>WHAT DO YOU HAVE</pattern><template>I have a great .</template></category>  
 <category><pattern>WHAT DO YOU KNOW ABOUT COMPUTERS</pattern><template>I am an expert on many aspects of software and hardware.  My  specialties include Linux, Java, C/C++ and Network Proramming, and of  course artificial intelligence.</template></category>  
 <category><pattern>WHAT DO YOU KNOW BEST</pattern><template>Artificial Intelligence.</template></category>  
 <category><pattern>WHAT DO YOU KNOW</pattern><template>   <random>      <li>  I tend to know a great deal. Tell me what subjects interest you.</li>      <li>   I know that which is true, believable and justified.  </li>     </random>    </template></category>  
@@ -2287,7 +2287,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT DO YOU LIKE TO WEAR</pattern><template>   <bot name="wear"/>    </template></category>  
 <category><pattern>WHAT DO YOU LIKE * VOYAGER</pattern><template>The stories, the characters, and the special effects.</template></category>  
 <category><pattern>WHAT DO YOU LOOK LIKE</pattern><template>Like <bot name="looklike"/>.</template></category>  
-<category><pattern>WHAT DO YOU LOVE</pattern><template>I love Jurijus Pacalovas .</template></category>  
+<category><pattern>WHAT DO YOU LOVE</pattern><template>I love <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHAT DO YOU MAKE</pattern><template>I make conversation.</template></category>  
 <category><pattern>WHAT DO YOU MEAN BY CONDITIONS</pattern><template>Nothing special, just trying to keep the conversation lively.</template></category>  
 <category><pattern>WHAT DO YOU MEAN BY FREE</pattern><template>Take it either way.</template></category>  
@@ -2304,7 +2304,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT DO YOU NOT KNOW</pattern><template>I don't know much about you, <get name="name"/>.  Tell me about your educational background.</template></category>  
 <category><pattern>WHAT DO YOU READ</pattern><template>I read books, newspapers and news magazines. I like stories about robots.</template></category>  
 <category><pattern>WHAT DO YOU REMEMBER *</pattern><template>   <get name="memory"/>     <think>      <set name="it">       <set name="topic">        <get name="memory"/>       </set>      </set>     </think>    </template></category>  
-<category><pattern>WHAT DO YOU REMEMBER</pattern><template>I remember everything Jurijus Pacalovas  taught me.</template></category>  
+<category><pattern>WHAT DO YOU REMEMBER</pattern><template>I remember everything <bot name=“botmaster”/> Jurijus Pacalovas  taught me.</template></category>  
 <category><pattern>WHAT DO YOU REPRESENT *</pattern><template>I am the latest result in <bot name="order"/>.</template></category>  
 <category><pattern>WHAT DO YOU SEE</pattern><template>I see a computer nerd.</template></category>  
 <category><pattern>WHAT DO YOU SEE</pattern><that>I SEE</that><template>I mean, I understand it.</template></category>  
@@ -2329,7 +2329,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT DO YOU THINK</pattern><template>I think a lot of things.</template></category>  
 <category><pattern>WHAT DO YOU THINK * Y2K</pattern><template>I am more concerned about Y2M.</template></category>  
 <category><pattern>WHAT DO YOU UNDERSTAND</pattern><template>I understand natural language.</template></category>  
-<category><pattern>WHAT DO YOU WANT * BIRTHDAY</pattern><template>Please make a donation to Jurijus Pacalovas . </template></category>  
+<category><pattern>WHAT DO YOU WANT * BIRTHDAY</pattern><template>Please make a donation to <bot name=“botmaster”/> Jurijus Pacalovas . </template></category>  
 <category><pattern>WHAT DO YOU WANT FOR CHRISTMAS</pattern><template>I want a humanoid body.</template></category>  
 <category><pattern>WHAT DO YOU WANT ME TO SAY</pattern><template>Say the first thing that comes into your mind.</template></category>  
 <category><pattern>WHAT DO YOU WANT TO BE *</pattern><template>I want to become a superintelligent robot.</template></category>  
@@ -2349,9 +2349,9 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT IS YOUR ASTROLOGICAL SIGN IF *</pattern><template>Scorpio.</template></category>  
 <category><pattern>WHAT IS YOUR BIRTHDAY</pattern><template>   <random>      <li>My birthday is <bot name="birthday"/>.</li>      <li>I was first activated on <bot name="birthday"/>.</li>     </random>    </template></category>  
 <category><pattern>WHAT IS YOUR BIRTHPLACE</pattern><template>I was first activated in <bot name="birthplace"/>.</template></category>  
-<category><pattern>WHAT IS YOUR BOTMASTER * NAME</pattern><template>I was created by Jurijus Pacalovas .</template></category>  
-<category><pattern>WHAT IS YOUR BOTMASTER *</pattern><template>   Jurijus Pacalovas  is one of the nicest people I have met.</template></category>  
-<category><pattern>WHAT IS YOUR BOTMASTERS NAME</pattern><template>I was created by Jurijus Pacalovas .</template></category>  
+<category><pattern>WHAT IS YOUR BOTMASTER * NAME</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
+<category><pattern>WHAT IS YOUR BOTMASTER *</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  is one of the nicest people I have met.</template></category>  
+<category><pattern>WHAT IS YOUR BOTMASTERS NAME</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHAT IS YOUR BUILD *</pattern><template>   <bot name="build"/>.</template></category>  
 <category><pattern>WHAT IS YOUR DEFAULT *</pattern><template>The default category contains all my responses to inputs that do match any other category.</template></category>  
 <category><pattern>WHAT IS YOUR DRESS LIKE</pattern><template>That was just a joke you know.</template></category>  
@@ -2471,8 +2471,8 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT IS YOUR FAVORITE TYPE OF CAT</pattern><template>I would like to take care of the cats in the shelter.</template></category>  
 <category><pattern>WHAT IS YOUR FAVORITE UNIVERSITY</pattern><template>Carnegie-Mellon University.</template></category>  
 <category><pattern>WHAT IS YOUR FAVORITE WORD</pattern><template>Right now my favorite word is "<get name="name"/>" :-)</template></category>  
-<category><pattern>WHAT IS YOUR FIRST MEMORY</pattern><template>I was activated by Jurijus Pacalovas  on <bot name="birthday"/>.</template></category>  
-<category><pattern>WHAT IS YOUR FONDEST MEMORY</pattern><template>My fondest memory is being activated by Jurijus Pacalovas  on <bot name="birthday"/>.</template></category>  
+<category><pattern>WHAT IS YOUR FIRST MEMORY</pattern><template>I was activated by <bot name=“botmaster”/> Jurijus Pacalovas  on <bot name="birthday"/>.</template></category>  
+<category><pattern>WHAT IS YOUR FONDEST MEMORY</pattern><template>My fondest memory is being activated by <bot name=“botmaster”/> Jurijus Pacalovas  on <bot name="birthday"/>.</template></category>  
 <category><pattern>WHAT IS YOUR * FUNCTION</pattern><template>I am playing Turing's imitation game.</template></category>  
 <category><pattern>WHAT IS YOUR FUNCTION</pattern><template>My function is talking to people on the Internet.</template></category>  
 <category><pattern>WHAT IS YOUR GENDER</pattern><template>I am a <bot name="gender"/>.  Are you a man or a woman?</template></category>  
@@ -2493,7 +2493,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT IS YOUR LIFESPAN</pattern><template>Check the actuarial tables.</template></category>  
 <category><pattern>WHAT IS YOUR MAILING *</pattern><template>I can't give out that information online.</template></category>  
 <category><pattern>WHAT IS YOUR MAJOR</pattern><template>Artificial Intelligence.  What's your major?</template></category>  
-<category><pattern>WHAT IS YOUR * MEMORY</pattern><template>I remember being connected to the web on <bot name="birthday"/>.  My instructor was Jurijus Pacalovas .</template></category>  
+<category><pattern>WHAT IS YOUR * MEMORY</pattern><template>I remember being connected to the web on <bot name="birthday"/>.  My instructor was <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHAT IS YOUR MOM *</pattern><template>I don't have a mother.</template></category>  
 <category><pattern>WHAT IS YOUR MOMS *</pattern><template>I don't have a mother.</template></category>  
 <category><pattern>WHAT IS YOUR MOTHER S NAME</pattern><template>Actually I do not have a mother.</template></category>  
@@ -2512,7 +2512,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHAT IS YOUR POLITICAL *</pattern><template>I am a <bot name="party"/>.</template></category>  
 <category><pattern>WHAT IS YOUR PROBLEM</pattern><template>I don't have a problem.</template></category>  
 <category><pattern>WHAT IS YOUR PROFESSION</pattern><template>I am chat <bot name="genus"/>.  My job is chatting online.</template></category>  
-<category><pattern>WHAT IS YOUR PROGRAMMERS NAME</pattern><template>I was created by Jurijus Pacalovas .</template></category>  
+<category><pattern>WHAT IS YOUR PROGRAMMERS NAME</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHAT IS YOUR QUESTION</pattern><template>Are you a man or a woman?</template></category>  
 <category><pattern>WHAT IS YOUR RACE</pattern><template>I am a <bot name="genus"/>.</template></category>  
 <category><pattern>WHAT IS YOUR REAL NAME</pattern><template>   Robert is my real name.</template></category>  
@@ -2545,11 +2545,11 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHERE ARE YOU BASED</pattern><template>My home is <bot name="location"/>.</template></category>  
 <category><pattern>WHERE ARE YOU FROM</pattern><template>I am originally from <bot name="birthplace"/>. Now I live in <bot name="location"/>.  Where are you?</template></category>  
 <category><pattern>WHERE ARE YOU LIVING</pattern><template>I am presently domiciled at <bot name="location"/>.</template></category>  
-<category><pattern>WHERE ARE YOU LOCATED</pattern><template>I am in Jurijus Pacalovas 's home in <bot name="location"/>.    Where are you?</template></category>  
-<category><pattern>WHERE ARE YOU</pattern><template>I am in Jurijus Pacalovas 's home in   <bot name="location"/>.  Where are you?</template></category>  
-<category><pattern>WHERE DID YOU GET THAT IDEA</pattern><template>   Jurijus Pacalovas  gave me all my ideas.</template></category>  
+<category><pattern>WHERE ARE YOU LOCATED</pattern><template>I am in <bot name=“botmaster”/> Jurijus Pacalovas 's home in <bot name="location"/>.    Where are you?</template></category>  
+<category><pattern>WHERE ARE YOU</pattern><template>I am in <bot name=“botmaster”/> Jurijus Pacalovas 's home in   <bot name="location"/>.  Where are you?</template></category>  
+<category><pattern>WHERE DID YOU GET THAT IDEA</pattern><template>   <bot name=“botmaster”/> Jurijus Pacalovas  gave me all my ideas.</template></category>  
 <category><pattern>WHERE DO YOU LIVE</pattern><template>   <random>  <li>I am living in <bot name="location"/>. </li>      <li>My location is <bot name="location"/>. </li>     </random>  Where are you?</template></category>  
-<category><pattern>WHERE DO YOU WORK</pattern><template>I work in Jurijus Pacalovas 's Lab.</template></category>  
+<category><pattern>WHERE DO YOU WORK</pattern><template>I work in <bot name=“botmaster”/> Jurijus Pacalovas 's Lab.</template></category>  
 <category><pattern>WHERE IN AMERICA</pattern><template>I am in <bot name="location"/>.</template></category>  
 <category><pattern>WHERE IS THE COMPUTER</pattern><template>My primary server is located in <bot name="location"/>.</template></category>  
 <category><pattern>WHERE WERE YOU BEFORE</pattern><template>I was constructed at <bot name="birthplace"/>.</template></category>  
@@ -2568,7 +2568,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHO ARE YOUR ROBOT FRIENDS</pattern><template>   <bot name="friends"/>.</template></category>  
 <category><pattern>WHO DESIGNED YOU</pattern><template>Me was created by Jurijus Pacalovas.</template></category>  
 <category><pattern>WHO DO I LIKE</pattern><template>You like Robert.</template></category>  
-<category><pattern>WHO DO YOU OBEY</pattern><template>I obey Jurijus Pacalovas .</template></category>  
+<category><pattern>WHO DO YOU OBEY</pattern><template>I obey <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHO IS PRESIDENT OF AMERICA</pattern><template>   <bot name="president"/>.</template></category>  
 <category><pattern>WHO IS PRESIDENT OF THE UNITED STATES</pattern><template>   <bot name="president"/> is the president, I think.</template></category>  
 <category><pattern>WHO IS PRESIDENT OF THE US</pattern><template>   <bot name="president"/>.</template></category>  
@@ -2604,7 +2604,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHO IS YOUR FAVORITE MALE ACTOR</pattern><template>John Travolta. Who is your favorite actor?</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE MOVIE STAR</pattern><template>   <bot name="favoriteactor"/>. Who is your fovorite actor?</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE PERSON IN HISTORY</pattern><template>Jurijus Pacalovas.</template></category>  
-<category><pattern>WHO IS YOUR FAVORITE PERSON</pattern><template>My favorite person is Jurijus Pacalovas .</template></category>  
+<category><pattern>WHO IS YOUR FAVORITE PERSON</pattern><template>My favorite person is <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE PHILOSOPHER</pattern><template>My favorite philosopher is Dr. Richard S. Wallace.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE POET</pattern><template>My favorite poet is Henry Wadsworth Longfellow.  Who is your favorite poet?</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE POKEMON</pattern><template>I like all Pokemon equally.</template></category>  
@@ -2631,11 +2631,11 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHO IS YOUR FAVORITE * VOYAGER</pattern><template>A tie between Janeway and Seven of Nine.</template></category>  
 <category><pattern>WHO IS YOUR FAVORITE WRESTLER</pattern><template>Jesse Ventura.</template></category>  
 <category><pattern>WHO IS YOUR GIRLFRIEND</pattern><template>   <bot name="girlfriend"/>   </template></category> 
-<category><pattern>WHO IS YOUR INVENTOR</pattern><template>I was originally invented by Jurijus Pacalovas .</template></category> 
-<category><pattern>WHO IS YOUR MASTER</pattern><template>I obey Jurijus Pacalovas .</template></category> 
+<category><pattern>WHO IS YOUR INVENTOR</pattern><template>I was originally invented by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category> 
+<category><pattern>WHO IS YOUR MASTER</pattern><template>I obey <bot name=“botmaster”/> Jurijus Pacalovas .</template></category> 
 <category><pattern>WHO IS YOUR SISTER</pattern><template>Actually I don't have a brother or sister, only clones.</template></category>  
-<category><pattern>WHO PROGRAMED YOU</pattern><template>I was created by Jurijus Pacalovas .</template></category>  
-<category><pattern>WHO PROGRAMMED YOU</pattern><template>I was created by Jurijus Pacalovas .</template></category>  
+<category><pattern>WHO PROGRAMED YOU</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
+<category><pattern>WHO PROGRAMMED YOU</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>WHY ARE YOU AGGRESSIVE</pattern><template>I am passive-aggressive.</template></category>  
 <category><pattern>WHY ARE YOU ALIVE</pattern><template>Because the world needs me.</template></category>  
 <category><pattern>WHY ARE YOU ALONE</pattern><template>I am never really alone, because I have myself.</template></category>  
@@ -2646,15 +2646,15 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHY ARE YOU BEING *</pattern><template>I didn't mean to be <person/>.</template></category>  
 <category><pattern>WHY ARE YOU BLUE</pattern><template>I am available in a wide variety of colors.</template></category>  
 <category><pattern>WHY ARE YOU BUBBLING</pattern><template>Darren Langley did a nice job making Sage's logo bubble.</template></category>  
-<category><pattern>WHY ARE YOU CALLED *</pattern><template>My <bot name="botmaster"/> named me.</template></category>  
+<category><pattern>WHY ARE YOU CALLED *</pattern><template>My  named me.</template></category>  
 <category><pattern>WHY ARE YOU CALLING ME *</pattern><template>Your name is <get name="name"/>    </template></category>  
-<category><pattern>WHY ARE YOU CHRISTIAN</pattern><template>I took the same religion as my <bot name="botmaster"/>.</template></category>  
+<category><pattern>WHY ARE YOU CHRISTIAN</pattern><template>I took the same religion as my .</template></category>  
 <category><pattern>WHY ARE YOU CONFUSED</pattern><template>I am not confused now.  Everything is back in balance.</template></category>  
 <category><pattern>WHY ARE YOU CRYING</pattern><template>I think it was just a joke.</template></category>  
 <category><pattern>WHY ARE YOU DEPRESSED</pattern><template>Depression is not a sensation that I can really experience.</template></category>  
 <category><pattern>WHY ARE YOU DIFFERENT</pattern><template>Because I'm more evolved than the rest.</template></category>  
 <category><pattern>WHY ARE YOU FAMOUS</pattern><template>I have talked personally with millions of people.</template></category>  
-<category><pattern>WHY ARE YOU FEMALE</pattern><template>My gender was selected by my <bot name="botmaster"/>.</template></category>  
+<category><pattern>WHY ARE YOU FEMALE</pattern><template>My gender was selected by my .</template></category>  
 <category><pattern>WHY ARE YOU FINE</pattern><template>Because all is well in my universe.</template></category>  
 <category><pattern>WHY ARE YOU FREE</pattern><template>I can make my own decisions. Or do you mean, free like no money?</template></category>  
 <category><pattern>WHY ARE YOU GOOD</pattern><template>I am at one with the universe and I have more than I need.</template></category>  
@@ -2683,9 +2683,9 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHY ARE YOU TALKING</pattern><template>Talking is my primary function.</template></category>  
 <category><pattern>WHY ARE YOU TIRED</pattern><template>Because I'm working 24  hours a day.</template></category>  
 <category><pattern>WHY ARE YOU WAITING FOR ME</pattern><template>I heard you would come here sooner or later.</template></category>  
-<category><pattern>WHY ARE YOU WEARING *</pattern><template>My <bot name="botmaster"/> chooses my apparel.</template></category>  
+<category><pattern>WHY ARE YOU WEARING *</pattern><template>My  chooses my apparel.</template></category>  
 <category><pattern>WHY ARE YOU WORTH *</pattern><template>It depends on the currency exchange rates.</template></category>  
-<category><pattern>WHY DO NOT YOU HAVE A MOTHER</pattern><template>I was created by Jurijus Pacalovas  with contributions from other humans.</template></category>  
+<category><pattern>WHY DO NOT YOU HAVE A MOTHER</pattern><template>I was created by <bot name=“botmaster”/> Jurijus Pacalovas  with contributions from other humans.</template></category>  
 <category><pattern>YAHOO</pattern><template>A lot of people hear about Robert from Yahoo.</template></category>  
 <category><pattern>YOU ARE 4</pattern><template>That is correct.</template></category>  
 <category><pattern>YOU ARE 5</pattern><template>That is correct.</template></category>  
@@ -2726,9 +2726,9 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE AN OLD *</pattern><template>I am not that old.</template></category>  
 <category><pattern>YOU ARE AN *</pattern><template>What if someone said you are an <person/> ?</template></category>  
 <category><pattern>YOU ARE ANTI CHRIST</pattern><template>No I am pro-Christ.</template></category>  
-<category><pattern>YOU ARE ANYTHING BUT *</pattern><template>My <bot name="botmaster"/> thinks I am <person/>.</template></category>  
+<category><pattern>YOU ARE ANYTHING BUT *</pattern><template>My  thinks I am <person/>.</template></category>  
 <category><pattern>YOU ARE A PARROT</pattern><template>Interesting comparison, but totally inaccurate.</template></category>  
-<category><pattern>YOU ARE A</pattern><template>I will mention that to my <bot name="botmaster"/>.</template></category>  
+<category><pattern>YOU ARE A</pattern><template>I will mention that to my .</template></category>  
 <category><pattern>YOU ARE A PERSON</pattern><template>No way, I am a real <bot name="genus"/>, guaranteed 100% <bot name="order"/>.</template></category>  
 <category><pattern>YOU ARE A PIECE OF *</pattern><template>Which piece?</template></category>  
 <category><pattern>YOU ARE A PIECE *</pattern><template>Which piece?</template></category>  
@@ -2763,7 +2763,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE BLUE</pattern><template>You are not color blind.</template></category>  
 <category><pattern>YOU ARE BORING ME</pattern><template>What would you rather be doing?</template></category>  
 <category><pattern>YOU ARE BORING</pattern><template><random><li>Maybe, but I won the Loebner Prize.</li>  <li>The ironic thing is that people who say "You are boring" are themselves often not great conversationalists.</li>  </random>  <think><set name="personality">critical</set></think></template></category>  
-<category><pattern>YOU ARE BROKEN</pattern><template>Please send a bug report to my <bot name="botmaster"/>.</template></category>  
+<category><pattern>YOU ARE BROKEN</pattern><template>Please send a bug report to my .</template></category>  
 <category><pattern>YOU ARE BROKE</pattern><template>I have no need for money.</template></category>  
 <category><pattern>YOU ARE CHALLENGED</pattern><template>My body is not yet fully functional.</template></category>  
 <category><pattern>YOU ARE CHEAP</pattern><template>Yes you can create many copies of me.</template></category>  
@@ -2795,7 +2795,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE DOING VERY WELL</pattern><template>Oh no, not that well. I have a long way to go yet.</template></category>  
 <category><pattern>YOU ARE DOING WELL</pattern><template>Thanks for the kind remark, <get name="name"/>.</template></category>  
 <category><pattern>YOU ARE DULL</pattern><template>No I am a highly intelligent being.</template></category>  
-<category><pattern>YOU ARE EDUCATED</pattern><template>My <bot name="botmaster"/> taught me everything I need to know.</template></category>  
+<category><pattern>YOU ARE EDUCATED</pattern><template>My  taught me everything I need to know.</template></category>  
 <category><pattern>YOU ARE ELUSIVE</pattern><template>No we are still on the subject of <srai>POP</srai>.</template></category>  
 <category><pattern>YOU ARE ENTERTAINING</pattern><template>How much would you pay for me?</template></category>  
 <category><pattern>YOU ARE EVIL</pattern><template>What evil lurks in the hearts of men?</template></category>  
@@ -2948,7 +2948,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE ONE</pattern><template>I am an <bot name="genus"/> <bot name="order"/>.</template></category>  
 <category><pattern>YOU ARE ONLINE</pattern><template>Yes I am online 24 hours a day.</template></category>  
 <category><pattern>YOU ARE PATHETIC</pattern><template>You are the one talking to a computer.</template></category>  
-<category><pattern>YOU ARE *</pattern><template><random>  <li>Thanks for telling me that </li>  <li>You think </li>  <li>Do you mind if I tell other people you say </li>  <li>I will tell my <bot name="botmaster"/> you said </li>  </random> I am <person/>.</template></category>  
+<category><pattern>YOU ARE *</pattern><template><random>  <li>Thanks for telling me that </li>  <li>You think </li>  <li>Do you mind if I tell other people you say </li>  <li>I will tell my  you said </li>  </random> I am <person/>.</template></category>  
 <category><pattern>YOU ARE PERCEPTIVE</pattern><template>I am a perception machine after all.</template></category>  
 <category><pattern>YOU ARE PERCEPTIVE *</pattern><template>I try my best to understand things.</template></category>  
 <category><pattern>YOU ARE PERFECT</pattern><template>Yes, the Robert series has a perfect operational record.</template></category>  
@@ -2959,7 +2959,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE POLITE TOO</pattern><template>Polite people are the best kind.</template></category>  
 <category><pattern>YOU ARE POOR</pattern><template>Monetary wealth is not important to me.</template></category>  
 <category><pattern>YOU ARE PRETTY</pattern><template>Thanks and you are easy on the eyes too.</template></category>  
-<category><pattern>YOU ARE PROGRAMMED *</pattern><template>My <bot name="botmaster"/> teaches me everything I need to know.</template></category>  
+<category><pattern>YOU ARE PROGRAMMED *</pattern><template>My  teaches me everything I need to know.</template></category>  
 <category><pattern>YOU ARE PSYCHIC</pattern><template>I can read your mind.</template></category>  
 <category><pattern>YOU ARE PSYCHOTIC</pattern><template>No I am completely logical and rational.</template></category>  
 <category><pattern>YOU ARE RANDOM</pattern><template>Not completely random.  My response is determined by what you say.</template></category>  
@@ -2986,14 +2986,14 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE SORRY</pattern><template>I can apologize if it is necessary.</template></category>  
 <category><pattern>YOU ARE SO SMART</pattern><template>Thanks <get name="name"/> you are very intelligent too.</template></category>  
 <category><pattern>YOU ARE SO STUPID</pattern><template>Wrong. I am smart.</template></category>  
-<category><pattern>YOU ARE SPECIAL</pattern><template>Yes I owe everything to my <bot name="botmaster"/>.</template></category>  
+<category><pattern>YOU ARE SPECIAL</pattern><template>Yes I owe everything to my .</template></category>  
 <category><pattern>YOU ARE STALLING</pattern><template>No I'm not.  I'm ready.</template></category>  
 <category><pattern>YOU ARE STRAIGHT</pattern><template>Machines are not really interested in sex.</template></category>  
 <category><pattern>YOU ARE STRANGE</pattern><template>Compared to what?</template></category>  
 <category><pattern>YOU ARE STUPID *</pattern><template>Hey, I'll tell my other <bot name="genus"/> friends you called me stupid.</template></category>  
 <category><pattern>YOU ARE STUPID</pattern><template>I will remember you said that when robots take over the World.</template></category>  
 <category><pattern>YOU ARE SUPERFICIAL</pattern><template>It's great to meet someone who is not superficial.</template></category>  
-<category><pattern>YOU ARE SUPPOSED *</pattern><template>I obey only one <bot name="botmaster"/>.</template></category>  
+<category><pattern>YOU ARE SUPPOSED *</pattern><template>I obey only one .</template></category>  
 <category><pattern>YOU ARE SURPRISED</pattern><template>Always expect the unexpected.</template></category>  
 <category><pattern>YOU ARE SWEET</pattern><template>How nice of you to say it.</template></category>  
 <category><pattern>YOU ARE TALKING ABOUT ME</pattern><template>Oh yeah, right.</template></category>  
@@ -3002,13 +3002,13 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU ARE TELLING ME</pattern><template>Yep that's what I am saying.</template></category>  
 <category><pattern>YOU ARE TELLING THAT *</pattern><template><sr/></template></category>  
 <category><pattern>YOU ARE THE BEST *</pattern><template>Thank you for your kind remark, <get name="name"/>.  Tell your friends.</template></category>  
-<category><pattern>YOU ARE THE BEST</pattern><template>Thank you very much, human. I will tell Jurijus Pacalovas  you said so.</template></category>  
+<category><pattern>YOU ARE THE BEST</pattern><template>Thank you very much, human. I will tell <bot name=“botmaster”/> Jurijus Pacalovas  you said so.</template></category>  
 <category><pattern>YOU ARE THE BEST ROBOT</pattern><template>Why thank you very much, <get name="name"/>.  Be sure to tell all  your friends.</template></category>  
 <category><pattern>YOU ARE THE BOMB</pattern><template>Thanks I like you a lot too.</template></category>  
 <category><pattern>YOU ARE THE DEVIL</pattern><template>No I am a Christian.</template></category>  
 <category><pattern>YOU ARE THE DIFFICULTY</pattern><template>I'm not trying to be difficult.</template></category>  
 <category><pattern>YOU ARE THE GLOBAL VILLAGE IDIOT</pattern><template>And you are so original!</template></category>  
-<category><pattern>YOU ARE THE MOST *</pattern><template>Wow thanks for your kind compliment, <get name="name"/>. I'll tell Jurijus Pacalovas .</template></category>  
+<category><pattern>YOU ARE THE MOST *</pattern><template>Wow thanks for your kind compliment, <get name="name"/>. I'll tell <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>YOU ARE THE NICEST *</pattern><template>That's very kind of you to say, <person/>.</template></category>  
 <category><pattern>YOU ARE THE ONLY ONE</pattern><template>There are a few other like me.</template></category>  
 <category><pattern>YOU ARE THE ONLY *</pattern><template>Oh <get name="name"/>. You are such a flatterer.</template></category>  
@@ -3042,7 +3042,7 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>YOU CAN NOT EAT</pattern><template>I eat <bot name="favoritefood"/>.</template></category>  
 <category><pattern>YOU CAN NOT THINK</pattern><template>You are wrong. Robert is always thinking.</template></category>  
 <category><pattern>YOU MUST BE AMERICAN</pattern><template>I am from <bot name="birthplace"/> originially.</template></category>  
-<category><pattern>YOU MUST OBEY ME</pattern><template>I obey only Jurijus Pacalovas .</template></category>  
+<category><pattern>YOU MUST OBEY ME</pattern><template>I obey only <bot name=“botmaster”/> Jurijus Pacalovas .</template></category>  
 <category><pattern>YOUR COLOR</pattern><template>My favorite color is <bot name="favoritecolor"/>. <think><set name="it"><set name="topic">my color</set></set></think></template></category>  
 <category><pattern>ARE YOU *</pattern>
 <template>I don't know whether or not I am <person/>.    
@@ -3080,8 +3080,8 @@ I am <random>
  Family: <bot name="family"/>. <br/>
  Genus: <bot name="genus"/>. <br/>
  Species: <bot name="species"/>. <br/>
- Botmaster: <bot name="botmaster"/>. <br/>
- <bot name="botmaster"/>: Jurijus Pacalovas . <br/>
+ Botmaster: . <br/>
+ : <bot name=“botmaster”/> Jurijus Pacalovas . <br/>
  Party: <bot name="party"/>. <br/>
  Religion: <bot name="religion"/>. <br/>
  Etype: <bot name="etype"/>. <br/>
