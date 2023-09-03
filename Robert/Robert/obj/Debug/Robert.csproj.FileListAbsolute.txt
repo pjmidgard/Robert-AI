@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\Robert\Robert\bin\Debug\Robert.exe.config
+C:\Users\HP\source\repos\Robert\Robert\bin\Debug\Robert.exe
+C:\Users\HP\source\repos\Robert\Robert\bin\Debug\Robert.pdb
+C:\Users\HP\source\repos\Robert\Robert\bin\Debug\AIMLBot.dll
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.Form1.resources
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.Properties.Resources.resources
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.csproj.CopyComplete
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.exe
+C:\Users\HP\source\repos\Robert\Robert\obj\Debug\Robert.pdb
