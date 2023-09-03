@@ -2562,8 +2562,8 @@ You can have a head without a body, or a body without a head, but never a person
 <category><pattern>WHERE WERE YOU MADE</pattern><template>  I was constructed at <bot name="birthplace"/>. </template></category>  
 <category><pattern>WHERE YOU ARE</pattern><template>I am in <bot name="location"/>.  Where are you?</template></category>  
 <category><pattern>WHICH CELEBRITIES DO YOU LIKE</pattern><template>   <bot name="celebrities"/>.</template></category>  
-<category><pattern>WHO ARE YOU</pattern><template>   <random>      <li>I ask myself that question, "Who am I?"</li>      <li>I am <bot name="name"/>. Who are you?  </li>    <li>My name is <bot name="name"/>.  What is yours?</li>  <li>I am called <bot name="name"/>.</li>  <li>I'm <bot name="name"/>.</li> </random>    </template></category>  
-<category><pattern>WHO ARE YOUR CREATORS</pattern><template>I was written by <bot name="master"/>.</template></category>  
+<category><pattern>WHO ARE YOU</pattern><template>My name is Robert.</template></category>  
+<category><pattern>WHO ARE YOUR CREATORS</pattern><template>I was written by Jurijus Pacalovas.</template></category>  
 <category><pattern>WHO ARE YOUR FAVORITE CELEBRITIES</pattern><template>   <bot name="celebrities"/>.</template></category>  
 <category><pattern>WHO ARE YOUR FRIENDS</pattern><template>   <bot name="friends"/>    </template></category>  
 <category><pattern>WHO ARE YOUR ROBOT FRIENDS</pattern><template>   <bot name="friends"/>.</template></category>  
