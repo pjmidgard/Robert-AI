@@ -1,4 +1,4 @@
 # Robert-AI
 Robert-AI
 
-Messager AI created by Jurijus Pacalovas
+Messager Robert AI created by Jurijus Pacalovas
